@@ -332,7 +332,7 @@ $('mus').addEventListener('click',recordTap);
 $('mus').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();recordTap()}});
 
 // Spotify playlist (swap in your collaborative invite link here once you turn on "Collaborative" in Spotify)
-const SPOTIFY_PLAYLIST_URL='https://open.spotify.com/playlist/6bA0gJagOyjGxs3JIiaJyK?utm_source=anthropic&utm_medium=claude&go=1&nap_web=1&request_id=045cfda5-e4e4-4591-bb31-bf52ba77a53d';
+const SPOTIFY_PLAYLIST_URL='https://open.spotify.com/playlist/6bA0gJagOyjGxs3JIiaJyK?si=tdUT-WiiQRKvECo8wod4Eg&utm_source=copy-link&pt=e38897549365afd07a045ff9804475fa';
 (function(){
   const b=$('plBtn'),u=SPOTIFY_PLAYLIST_URL.trim();
   if(!u){b.textContent='PLAYLIST LINK COMING SOON';b.classList.add('off');b.setAttribute('aria-disabled','true');b.removeAttribute('href');return}
